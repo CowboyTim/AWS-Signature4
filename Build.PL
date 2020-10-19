@@ -11,7 +11,6 @@ my $build = Module::Build->new(
     dist_author       => 'Lincoln Stein <lincoln.stein@gmail.com>',
     configure_requires => { 'Module::Build' => 0.4205 },
     requires          => {
-      'LWP'          => 5.835,
       'Digest::SHA'  => '5.47',
       'URI'          => 1.59,
       'URI::QueryParam' => 0,
